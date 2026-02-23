@@ -30,7 +30,6 @@ displaying ontological knowledge in a knowledge graph.
    - `21` losing_score `CFPNC_2026`
    - `Carson_Beck` played_in `CFPNC_2026`
    - `Carson_Beck` member `Miami_Hurricanes`
-   - `Carson_Beck` instance `Man`
    
    The SUMO starting points you must use are:
    - `FootballUS` (for `CFPNC_2026`)
