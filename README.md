@@ -44,7 +44,7 @@ displaying ontological knowledge in a knowledge graph.
    - `20_January_2026` is_date `CFPNC_2026`
    - `27` winning_score `CFPNC_2026`
    - `21` losing_score `CFPNC_2026`
-   - `Carson_Beck` played_in `CFPNC_2026`
+   - `Carson_Beck` contestParticipant `CFPNC_2026`
    - `Carson_Beck` member `Miami_Hurricanes`
    
    The SUMO starting points you must use are:
