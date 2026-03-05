@@ -13,17 +13,20 @@ displaying ontological knowledge in a knowledge graph.
      (q & r) => p
      ~p | q | r
      ```
-     Put your answer and the truth table (I suggest using a spreadsheet to do it neatly) in a PDF file called `LC1.pdf`.
-   - Use a truth table to decide whether or not `q & (r => p)` is a logical consequence of the axioms
+     Put the truth table (I suggest using a spreadsheet to do it neatly) in a PDF file called
+     `LC1.pdf`.
+   - Use a truth table to decide whether or not `q & (r => p)` is a logical consequence of the
+     axioms
      ```
      p => (q | r)
      p | q | r
      ~q => (p | ~r)
      (q & r) => p
      ```
-     Put your answer and the truth table (I suggest using a spreadsheet to do it neatly) in a PDF file called `LC2.pdf`.
+     Put the truth table (I suggest using a spreadsheet to do it neatly) in a PDF file called
+    `LC2.pdf`.
 
-3. Ontological Knowledge Graph  
+2. Ontological Knowledge Graph  
    On 20th January 2026 the Miami Hurricanes lost the College Football Playoff National 
    Championship to the Indiana Hoosiers, 27-21. Carson Beck was a member of the Miami team.
    Represent this using the terms:
@@ -45,8 +48,9 @@ displaying ontological knowledge in a knowledge graph.
    - `20_January_2026` is_date `CFPNC_2026`
    - `27` winning_score `CFPNC_2026`
    - `21` losing_score `CFPNC_2026`
-   - `Carson_Beck` contestParticipant `CFPNC_2026`
+   - `Carson_Beck` played_in `CFPNC_2026`
    - `Carson_Beck` member `Miami_Hurricanes`
+   - `Carson_Beck` instance `Man`
    
    The SUMO starting points you must use are:
    - `FootballUS` (for `CFPNC_2026`)
@@ -56,8 +60,7 @@ displaying ontological knowledge in a knowledge graph.
    - `Man` (for `Carson_Beck`)
      
    All the SUMO subclass hierarchies must end at `Entity`.
-   
-   Write out all your Thing-Relationship-Thing tripes in a text file `Football.txt`.
+   Write out all your Thing-Relationship-Thing triples in a text file `Football.txt`.
    Render the knowledge in a knowledge graph, and save it in a file `Football.png` (take a
    screenshot).
    Submit `Football.txt`, and `Football.png`.
