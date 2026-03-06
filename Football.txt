@@ -1,0 +1,41 @@
+# Domain Relations
+Miami_Hurricanes lost CFPNC_2026
+Indiana_Hoosiers won CFPNC_2026
+20_January_2026 is_date CFPNC_2026
+27 winning_score CFPNC_2026
+21 losing_score CFPNC_2026
+Carson_Beck played_in CFPNC_2026
+Carson_Beck member Miami_Hurricanes
+
+# Instance Connections
+CFPNC_2026 instance FootballUS
+Miami_Hurricanes instance SportsTeam
+Indiana_Hoosiers instance SportsTeam
+20_January_2026 instance Day
+27 instance NonnegativeInteger
+21 instance NonnegativeInteger
+Carson_Beck instance Man
+
+# SUMO Subclass Hierarchies (Ending at Entity)
+FootballUS subclass TeamSport
+TeamSport subclass Sport
+Sport subclass Process
+Process subclass Physical
+Physical subclass Entity
+
+SportsTeam subclass Organization
+Organization subclass Agent
+Agent subclass Object
+Object subclass Physical
+
+Man subclass Human
+Human subclass Organism
+Organism subclass Object
+
+Day subclass TimeInterval
+TimeInterval subclass Abstract
+Abstract subclass Entity
+
+NonnegativeInteger subclass Number
+Number subclass Quantity
+Quantity subclass Abstract
